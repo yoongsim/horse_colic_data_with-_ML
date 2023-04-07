@@ -1,4 +1,4 @@
-# horse_colic_data_with-_ML
+# horse_colic_data_with_ML
 
 The raw data were obtained from the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Horse+Colic)
 
