@@ -1,21 +1,21 @@
-# horse_colic_data_with_ML
+# Horse Colic Data Classification with Machine Learning
 
-The raw data were obtained from the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Horse+Colic)
+This project aims to classify the condition of horses (whether they lived, died, or were euthanized) using various machine learning techniques. The raw data were obtained from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Horse+Colic).
 
-Aim: 
-- To classify the condition of the horse whether it lived, died or was euthanized
-- To perform classification using ANN and supervsied classifiers such as SVM and Random Forest 
-- To perform clustering using Self-rganizing Map (SOM)
-- To identify the best approach by comparing between the methods used 
-- To compute the confusion matrix, ROC curve and AUROC for the best prediction model of
-each classifier
+## Objectives
 
-The preprocessing steps carried out were:
-- Remove columns with more than 40% of missing values 
-- Replace missing values with median value of that particular column for numerical data
-- Replace missing values with nearest non-missing value for categorical data
+**Classification**: Use Artificial Neural Networks (ANN), Support Vector Machines (SVM), and Random Forest (RF) to classify horse conditions.<b/>
+**Clustering**: Apply Self-Organizing Map (SOM) for clustering.<b/>
+**Evaluation**: Identify the best approach by comparing methods used and compute the confusion matrix, ROC curve, and AUROC for the best prediction model of each classifier.<b/><b/>
 
-Conclusion: 
-- ANN is the best classifier among all as it shows 81.52% classifcation accuracy while RF and SVM shows 76.36% and 56.16 classification accuracy respectively
-- SOM was able to cluster the data into two distinct group
+## Preprocessing Steps
+- Remove columns with more than 40% missing values.<b/>
+- Replace missing values with the median value for numerical data.<b/>
+- Replace missing values with the nearest non-missing value for categorical data.<b/><b/>
+
+## Conclusion
+ANN: Best classifier with 81.52% accuracy.<b/>
+Random Forest: 76.36% accuracy.<b/>
+SVM: 56.16% accuracy.<b/>
+SOM: Successfully clustered data into two distinct groups.<b/>
 
