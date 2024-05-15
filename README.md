@@ -14,8 +14,8 @@ This project aims to classify the condition of horses (whether they lived, died,
 - Replace missing values with the nearest non-missing value for categorical data.<b/><b/>
 
 ## Conclusion
-ANN: Best classifier with 81.52% accuracy.<b/>
-Random Forest: 76.36% accuracy.<b/>
-SVM: 56.16% accuracy.<b/>
-SOM: Successfully clustered data into two distinct groups.<b/>
+- ANN: Best classifier with 81.52% accuracy.<b/>
+- Random Forest: 76.36% accuracy.<b/>
+- SVM: 56.16% accuracy.<b/>
+- SOM: Successfully clustered data into two distinct groups.<b/>
 
