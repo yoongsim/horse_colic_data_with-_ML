@@ -4,9 +4,9 @@ This project aims to classify the condition of horses (whether they lived, died,
 
 ## Objectives
 
-**Classification**: Use Artificial Neural Networks (ANN), Support Vector Machines (SVM), and Random Forest (RF) to classify horse conditions.<b/>
-**Clustering**: Apply Self-Organizing Map (SOM) for clustering.<b/>
-**Evaluation**: Identify the best approach by comparing methods used and compute the confusion matrix, ROC curve, and AUROC for the best prediction model of each classifier.<b/><b/>
+**Classification**: Use Artificial Neural Networks (ANN), Support Vector Machines (SVM), and Random Forest (RF) to classify horse conditions.  
+**Clustering**: Apply Self-Organizing Map (SOM) for clustering.  
+**Evaluation**: Identify the best approach by comparing methods used and compute the confusion matrix, ROC curve, and AUROC for the best prediction model of each classifier.  
 
 ## Preprocessing Steps
 - Remove columns with more than 40% missing values.<b/>
